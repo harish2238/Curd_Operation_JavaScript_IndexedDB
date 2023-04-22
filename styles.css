@@ -1,0 +1,79 @@
+/* body > table{
+    width: 50%;
+} */
+
+table{
+    border: 2px solid black;
+}
+table.list{
+    width:50%;
+    margin: auto;
+    border-radius: 4px;
+}
+
+td, th {
+    border: 2px solid black;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even),table.list thead>tr {
+    background-color:lightgray;
+}
+
+tr:nth-child(odd){
+    background-color: white;
+}
+
+input[type=text], input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0000ee;
+    margin-right: 4px;
+}
+
+label.validation-error{
+    color:   red;
+    margin-left: 5px;
+}
+
+.hide{
+    display:none;
+}
+.tabledata{
+    border: 2px solid black;
+    width: 40%;
+    height: 30%;
+    padding: 50px;
+    border-radius: 5%;
+    overflow: auto;
+}
+#form-action-buttons{
+    width: 30%;
+    background-color: #ddd;
+    color: #000;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    float: right;
+}
+
+.full-bg-color{
+    background-color: bisque;
+}
+
+#heading{
+    text-align: center;
+    margin: auto;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        CRUD DEMO
+    </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="full-bg-color">
+    <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                    <div class="tabledata">
+                        <h1 id="heading">Sign-in</h1>
+                        <hr>
+                        
+                        <label>Name</label>
+                        <input type="text" name="fullName" id="fullName">
+                        <label>UserId*</label><label class="validation-error hide" id="fullNameValidationError">This field is required.</label>
+                        <input type="text" name="empCode" id="empCode">
+                        <input type="submit" value="Submit" id="form-action-buttons">
+                    </div>
+    </form>
+    <br></br>
+    <br></br>
+    <div id="emplist">
+    <table class="list" id="employeeList">
+        <thead>
+            <tr>
+                
+                <th>Name</th>
+                <th>UserId</th>
+                <th>Action<th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+</div>
+    <script src="script.js"></script>
+</body>
+
+</html>
